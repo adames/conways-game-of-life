@@ -1,0 +1,46 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+}
+
+.game-container {
+  position: absolute;
+  top: 1000%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.grid-container {
+  display: grid;
+
+  border: solid 1px black;
+}
+
+.cell {
+  width: 25;
+  height: 25;
+  transition: transform 0.2s;
+}
+
+.cell:hover {
+  background-color: gray;
+  border: 2px solid black;
+  transform: scale(1.2);
+}
+.button-bar {
+  padding: 20px;
+}
+
+.button-bar button {
+  background-color: blanchedalmond;
+  border: solid 1px gray;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+.button-bar button:hover {
+  border: 1px solid black;
+  transform: scale(1.1);
+}
